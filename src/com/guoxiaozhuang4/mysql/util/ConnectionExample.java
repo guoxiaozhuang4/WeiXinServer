@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 public class ConnectionExample {
 
-	// Á¬½ÓÊôĞÔ£¬ÓÃÊı×é´¢´æ
+	// è¿æ¥å±æ€§ï¼Œç”¨æ•°ç»„å‚¨å­˜
 	private HashMap<String, String> connMess = new HashMap<>();
 
 	private Connection connection;
@@ -22,14 +22,14 @@ public class ConnectionExample {
 
 	/**
 	 * @author guoxiaozhuang4
-	 * @Description ³õÊ¼»¯²ÎÊı
+	 * @Description åˆå§‹åŒ–å‚æ•°
 	 */
 	private void initConnParam(String sql) {
 
 		String driver = "com.mysql.jdbc.Driver";
 		String url = "jdbc:mysql://localhost:3306/guoxiaozhuang4?useSSL=false";
 		String user = "guoxiaozhuang4";
-		String pass = "Qq19660425";
+		String pass = "******";
 
 		initConnParam(driver, url, user, pass, sql);
 	}
